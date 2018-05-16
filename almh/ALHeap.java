@@ -72,7 +72,7 @@ public class ALHeap
      2. Compare the element with the parent. If parent is greater then swap.
      3. Repeat step 2 until parent is less than the element or the element 
      becomes the root.
-     *****************************************************/
+    *****************************************************/
     public void add( Integer addVal )
     {
 	_heap.add(addVal);
@@ -96,7 +96,7 @@ public class ALHeap
      3. If the replacement is greater than the smallest child then swap.
      4. Repeat step 3 until replacement is less than the smallest child or it
      becomes a leaf. 
-     *****************************************************/
+    *****************************************************/
     public Integer removeMin()
     {
 	if (isEmpty())
