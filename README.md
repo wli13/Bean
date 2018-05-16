@@ -12,8 +12,8 @@ We looked for robust, clear, efficient code, prioritizing robustness over the tw
 
 ### Heap Todo
 1. toString() - comes in handy for testing purposes
-2. peekMin(), isEmpty() - seems pretty straightforward and likely useful for later methods
-3. minOf() - should be done fairly early since it is a helper function of later, more complicated code
-4. add() - figured actually being able to add elements should come before removing them
-5. minChildPos() - useful in removeMin method
-6. removeMin() - what else is left?
+1. peekMin(), isEmpty() - seems pretty straightforward and likely useful for later methods
+1. minOf() - should be done fairly early since it is a helper function of later, more complicated code
+1. add() - figured actually being able to add elements should come before removing them
+1. minChildPos() - useful in removeMin method
+1. removeMin() - what else is left?
