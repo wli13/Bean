@@ -15,7 +15,7 @@ public class ALHeapMin
   /*****************************************************
    * default constructor  ---  inits empty heap
    *****************************************************/
-  public ALHeap() 
+  public ALHeapMin() 
   {
 	_heap = new ArrayList<Integer>();      
   }
@@ -192,12 +192,14 @@ public class ALHeapMin
   }
   //********************************************
 
-
+    public int size(){
+	return _heap.size();
+    }
 
   //main method for testing
   public static void main( String[] args )
   {
-      ALHeap pile = new ALHeap();
+      ALHeapMin pile = new ALHeapMin();
 
       pile.add(2);
       System.out.println(pile);

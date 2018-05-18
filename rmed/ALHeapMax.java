@@ -15,7 +15,7 @@ public class ALHeapMax
   /*****************************************************
    * default constructor  ---  inits empty heap
    *****************************************************/
-  public ALHeap() 
+  public ALHeapMax() 
   {
 	_heap = new ArrayList<Integer>();      
   }
@@ -192,12 +192,14 @@ public class ALHeapMax
   }
   //********************************************
 
-
+    public int size(){
+	return _heap.size();
+    }
 
   //main method for testing
   public static void main( String[] args )
   {
-      ALHeap pile = new ALHeap();
+      ALHeapMax pile = new ALHeapMax();
 
       pile.add(2);
       System.out.println(pile);
