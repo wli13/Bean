@@ -1,12 +1,12 @@
-//Bean
+//Bean - Selina Zou, Wenting Li, Stefan Tan
 //APCS2 pd01
-//HW49
-//2018-05-16
+//HW50 -- Run Run Run
+//2018-05-17
 
 public class RunMed{
 
     ALHeapMin lilVals;
-    APHeapMax bigVals;
+    ALHeapMax bigVals;
 	
     public RunMed{
 	lilVals =;
