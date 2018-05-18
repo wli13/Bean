@@ -9,8 +9,8 @@ public class RunMed{
     ALHeapMax bigVals;
 	
     public RunMed{
-	lilVals =;
-	bigVals =;
+	lilVals = new ALHeapMin();
+	bigVals = new ALHeapMax();
     }
 
     public getMedian(){
